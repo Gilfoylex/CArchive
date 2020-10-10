@@ -7,7 +7,7 @@ let package = Package(
 	name: "CArchive",
 	pkgConfig: "libarchive",
 	providers: [
-		.brew("libarchive"), 
-		.apt("libarchive-dev")
+		.brew(["libarchive"]), 
+		.apt(["libarchive-dev"])
 	]
 )
